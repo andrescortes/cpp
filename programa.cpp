@@ -15,7 +15,7 @@ cout<<"el presupuesto de ginecologia es: "<<cap_gin;
 cout<<endl;
 cout<<"el presupuesto de traumatologia es: "<<cap_tra;
 cout<<endl;
-cout<<"el presupuesto de pediatria es: "<<cap_ped;
+cout<<"el presupuesto de pediatria es logico: "<<cap_ped;
 getch();
 }
 
