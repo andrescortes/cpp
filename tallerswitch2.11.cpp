@@ -3,12 +3,12 @@
 #include <conio.h>
 using namespace std;
 main(){
- char dia;
+ int dia;
  cout << "Ingrese un numero para decirle a que mes corresponde: " << endl;
  cin >> dia;
  
  switch(dia){
- 	case 'e': cout << "enero." ; break;
+ 	case 1: cout << "enero." ; break;
  	case 2: cout << "febrero" ; break;
  	case 3: cout << "marzo." ; break;
  	case 4: cout << "abril" ; break;

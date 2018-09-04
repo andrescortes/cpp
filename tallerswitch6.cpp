@@ -5,27 +5,27 @@
 #include <iomanip>
 #include <math.h>
 using namespace std;
-  //enum colors{r , naranja, amarillo, verde, azul, anil, violeta };
+  
 int main(){
-	char colors;
+	char colors;//: rojo, naranja, amarillo, verde, cian, azul y violeta,
+	cout << "Escoge un color" << endl;
+	cout << "r Rojo n Naranja a Amarillo v Verde c Cian z Azul l Violeta" << endl;
+	cin >> colors;
 	
-	cout << "escribe un color" << endl;
-	cin.get(colors);
-	cout << colors << endl;
 	switch(colors){
-		case 'rojo': cout << "es rojo y pertenece al arco iris " << endl;
+		case 'r': cout << "es rojo y pertenece al arco iris " << endl;
 		break;
-		case 'naranja': cout << "es amarillo y pertenece al arco iris " << endl;
+		case 'n': cout << "es naranja y pertenece al arco iris " << endl;
 		break;
-		case 'amarillo': cout << "es verde y pertenece al arco iris " << endl;
+		case 'a': cout << "es amarillo y pertenece al arco iris " << endl;
 		break;
-		case 'verde': cout << "es verde y pertenece al arco iris " << endl;
+		case 'v': cout << "es verde y pertenece al arco iris " << endl;
 		break;
-		case 'azul': cout << "es azul y pertenece al arco iris " << endl;
+		case 'c': cout << "es cian y pertenece al arco iris " << endl;
 		break;
-		case 'anil': cout << "es anil y pertenece al arco iris " << endl;
+		case 'z': cout << "es azul y pertenece al arco iris " << endl;
 		break;
-		case 'violeta': cout << "es violeta y pertenece al arco iris " << endl;
+		case 'l': cout << "es violeta y pertenece al arco iris " << endl;
 		break;
 		default: cout << "no aceptado" << endl;
 	}

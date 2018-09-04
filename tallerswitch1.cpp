@@ -17,6 +17,7 @@ main(){
  	case 7: cout << "Dia Domingo." ; break;
  	default: cout << "Numero no valido o Caracter no valido.";
  }	
+ getch();
 
 }
 
