@@ -7,15 +7,22 @@ main(){
     scanf("%d",&x);
     printf("ingrese un numero:\n");
     scanf("%d",&y);
+    
     if(x < y){
-	for(int i=x; i<=y; i+=5){
-		printf("%d ",i);
+	for(int i=x; i<=y; i++){
+		if(i % 5 == 0 ){
+			printf("%d ",i);
+		}
 	}
 }
-    if(y > x){
-    	for(int i=x; i<=y; i+=5){
-		printf("%d ",i);
+	if(x > y){
+    	for(int i=y; i<=x; i++){
+		if(i % 5 == 0){
+			printf("%d ",i);
+		}
 	}
-	}
+}
+
+
 	return 0;
 }
